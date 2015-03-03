@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import SKMaps
+
+let API_KEY: String = "1d68ee9f95a8d885d94e026d6f10ba1dea5391327676a6a41d1011110a55bc45" // moje API_KEY
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-		// Override point for customization after application launch.
+		var initSettings: SKMapsInitSettings = SKMapsInitSettings()
+		SKMapsService.sharedInstance().initializeSKMapsWithAPIKey(API_KEY, settings: initSettings)
+		SKPositionerService.sharedInstance().startLocationUpdate()
 		return true
 	}
 

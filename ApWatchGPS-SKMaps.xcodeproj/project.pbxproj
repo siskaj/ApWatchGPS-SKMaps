@@ -13,6 +13,19 @@
 		C577D3EF1AA58F9900B0C7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C577D3EE1AA58F9900B0C7F9 /* Images.xcassets */; };
 		C577D3F21AA58F9900B0C7F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C577D3F01AA58F9900B0C7F9 /* LaunchScreen.xib */; };
 		C577D3FE1AA58F9900B0C7F9 /* ApWatchGPS_SKMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577D3FD1AA58F9900B0C7F9 /* ApWatchGPS_SKMapsTests.swift */; };
+		C577D40D1AA590E100B0C7F9 /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C577D40C1AA590E100B0C7F9 /* SKMaps.bundle */; };
+		C577D40F1AA5913500B0C7F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D40E1AA5913500B0C7F9 /* UIKit.framework */; };
+		C577D4111AA5914300B0C7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4101AA5914300B0C7F9 /* Foundation.framework */; };
+		C577D4131AA5915300B0C7F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4121AA5915200B0C7F9 /* CoreLocation.framework */; };
+		C577D4151AA5915F00B0C7F9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4141AA5915F00B0C7F9 /* OpenGLES.framework */; };
+		C577D4171AA5916900B0C7F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4161AA5916900B0C7F9 /* QuartzCore.framework */; };
+		C577D4191AA5917500B0C7F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4181AA5917500B0C7F9 /* CoreGraphics.framework */; };
+		C577D4201AA5939200B0C7F9 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D41F1AA5939200B0C7F9 /* libstdc++.dylib */; };
+		C577D4221AA593A700B0C7F9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4211AA593A700B0C7F9 /* libc++.dylib */; };
+		C5B85ACC1AA5A710009960DC /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; };
+		C5B85ACD1AA5A722009960DC /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; };
+		C5B85ACE1AA5A722009960DC /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5B85AD21AA5E087009960DC /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B85AD11AA5E087009960DC /* MMWormhole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +38,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C5B85ACF1AA5A722009960DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C5B85ACE1AA5A722009960DC /* SKMaps.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C577D3E21AA58F9900B0C7F9 /* ApWatchGPS-SKMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApWatchGPS-SKMaps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C577D3E61AA58F9900B0C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +63,19 @@
 		C577D3F71AA58F9900B0C7F9 /* ApWatchGPS-SKMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApWatchGPS-SKMapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C577D3FC1AA58F9900B0C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C577D3FD1AA58F9900B0C7F9 /* ApWatchGPS_SKMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApWatchGPS_SKMapsTests.swift; sourceTree = "<group>"; };
+		C577D40C1AA590E100B0C7F9 /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKMaps.bundle; path = "ApWatchGPS-SKMaps/SKMaps.bundle"; sourceTree = "<group>"; };
+		C577D40E1AA5913500B0C7F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C577D4101AA5914300B0C7F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C577D4121AA5915200B0C7F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C577D4141AA5915F00B0C7F9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C577D4161AA5916900B0C7F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C577D4181AA5917500B0C7F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C577D41F1AA5939200B0C7F9 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		C577D4211AA593A700B0C7F9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C577D4231AA593ED00B0C7F9 /* ApWatchGPS-SKMaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApWatchGPS-SKMaps-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5B85ACB1AA5A710009960DC /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
+		C5B85AD01AA5E087009960DC /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		C5B85AD11AA5E087009960DC /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +83,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C577D4221AA593A700B0C7F9 /* libc++.dylib in Frameworks */,
+				C577D4201AA5939200B0C7F9 /* libstdc++.dylib in Frameworks */,
+				C5B85ACC1AA5A710009960DC /* SKMaps.framework in Frameworks */,
+				C577D4191AA5917500B0C7F9 /* CoreGraphics.framework in Frameworks */,
+				C577D4171AA5916900B0C7F9 /* QuartzCore.framework in Frameworks */,
+				C577D4151AA5915F00B0C7F9 /* OpenGLES.framework in Frameworks */,
+				C577D4131AA5915300B0C7F9 /* CoreLocation.framework in Frameworks */,
+				C5B85ACD1AA5A722009960DC /* SKMaps.framework in Frameworks */,
+				C577D4111AA5914300B0C7F9 /* Foundation.framework in Frameworks */,
+				C577D40F1AA5913500B0C7F9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				C577D3E41AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */,
+				C577D41E1AA5920A00B0C7F9 /* Frameworks */,
 				C577D3FA1AA58F9900B0C7F9 /* ApWatchGPS-SKMapsTests */,
 				C577D3E31AA58F9900B0C7F9 /* Products */,
+				C577D4271AA5940D00B0C7F9 /* WormHole */,
+				C577D4231AA593ED00B0C7F9 /* ApWatchGPS-SKMaps-Bridging-Header.h */,
+				C5B85ACB1AA5A710009960DC /* SKMaps.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +166,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C577D41E1AA5920A00B0C7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C577D4211AA593A700B0C7F9 /* libc++.dylib */,
+				C577D41F1AA5939200B0C7F9 /* libstdc++.dylib */,
+				C577D40C1AA590E100B0C7F9 /* SKMaps.bundle */,
+				C577D4181AA5917500B0C7F9 /* CoreGraphics.framework */,
+				C577D4161AA5916900B0C7F9 /* QuartzCore.framework */,
+				C577D4141AA5915F00B0C7F9 /* OpenGLES.framework */,
+				C577D4121AA5915200B0C7F9 /* CoreLocation.framework */,
+				C577D4101AA5914300B0C7F9 /* Foundation.framework */,
+				C577D40E1AA5913500B0C7F9 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C577D4271AA5940D00B0C7F9 /* WormHole */ = {
+			isa = PBXGroup;
+			children = (
+				C5B85AD01AA5E087009960DC /* MMWormhole.h */,
+				C5B85AD11AA5E087009960DC /* MMWormhole.m */,
+			);
+			name = WormHole;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,6 +201,7 @@
 				C577D3DE1AA58F9900B0C7F9 /* Sources */,
 				C577D3DF1AA58F9900B0C7F9 /* Frameworks */,
 				C577D3E01AA58F9900B0C7F9 /* Resources */,
+				C5B85ACF1AA5A722009960DC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,6 +272,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C577D40D1AA590E100B0C7F9 /* SKMaps.bundle in Resources */,
 				C577D3ED1AA58F9900B0C7F9 /* Main.storyboard in Resources */,
 				C577D3F21AA58F9900B0C7F9 /* LaunchScreen.xib in Resources */,
 				C577D3EF1AA58F9900B0C7F9 /* Images.xcassets in Resources */,
@@ -214,6 +295,7 @@
 			files = (
 				C577D3EA1AA58F9900B0C7F9 /* ViewController.swift in Sources */,
 				C577D3E81AA58F9900B0C7F9 /* AppDelegate.swift in Sources */,
+				C5B85AD21AA5E087009960DC /* MMWormhole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +422,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ApWatchGPS-SKMaps/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ApWatchGPS-SKMaps-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -350,9 +440,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ApWatchGPS-SKMaps/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ApWatchGPS-SKMaps-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +506,7 @@
 				C577D4031AA58F9900B0C7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C577D4041AA58F9900B0C7F9 /* Build configuration list for PBXNativeTarget "ApWatchGPS-SKMapsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +515,7 @@
 				C577D4061AA58F9900B0C7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
