@@ -26,6 +26,13 @@
 		C5B85ACD1AA5A722009960DC /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; };
 		C5B85ACE1AA5A722009960DC /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C5B85AD21AA5E087009960DC /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B85AD11AA5E087009960DC /* MMWormhole.m */; };
+		C5B85ADD1AA5E9F5009960DC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B85ADC1AA5E9F5009960DC /* InterfaceController.swift */; };
+		C5B85ADF1AA5E9F5009960DC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B85ADE1AA5E9F5009960DC /* NotificationController.swift */; };
+		C5B85AE11AA5E9F5009960DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B85AE01AA5E9F5009960DC /* Images.xcassets */; };
+		C5B85AE51AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C5B85AE41AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App.app */; };
+		C5B85AED1AA5E9F5009960DC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B85AEB1AA5E9F5009960DC /* Interface.storyboard */; };
+		C5B85AEF1AA5E9F5009960DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B85AEE1AA5E9F5009960DC /* Images.xcassets */; };
+		C5B85AF21AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5B85AD71AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = C577D3E11AA58F9900B0C7F9;
 			remoteInfo = "ApWatchGPS-SKMaps";
+		};
+		C5B85AE61AA5E9F5009960DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C577D3DA1AA58F9900B0C7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B85AE31AA5E9F5009960DC;
+			remoteInfo = "ApWatchGPS-SKMaps WatchKit App";
+		};
+		C5B85AF01AA5E9F5009960DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C577D3DA1AA58F9900B0C7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5B85AD61AA5E9F5009960DC;
+			remoteInfo = "ApWatchGPS-SKMaps WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -48,6 +69,17 @@
 				C5B85ACE1AA5A722009960DC /* SKMaps.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B85AF91AA5E9F5009960DC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C5B85AF21AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -76,6 +108,17 @@
 		C5B85ACB1AA5A710009960DC /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
 		C5B85AD01AA5E087009960DC /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
 		C5B85AD11AA5E087009960DC /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		C5B85AD71AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ApWatchGPS-SKMaps WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B85ADA1AA5E9F5009960DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B85ADB1AA5E9F5009960DC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C5B85ADC1AA5E9F5009960DC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C5B85ADE1AA5E9F5009960DC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C5B85AE01AA5E9F5009960DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5B85AE41AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApWatchGPS-SKMaps WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B85AEA1AA5E9F5009960DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B85AEC1AA5E9F5009960DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C5B85AEE1AA5E9F5009960DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5B85AFA1AA5EAEA009960DC /* ApWatchGPS-SKMaps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ApWatchGPS-SKMaps.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +146,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5B85AD41AA5E9F5009960DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				C577D3E41AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */,
+				C5B85AD81AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension */,
+				C5B85AE81AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App */,
 				C577D41E1AA5920A00B0C7F9 /* Frameworks */,
 				C577D3FA1AA58F9900B0C7F9 /* ApWatchGPS-SKMapsTests */,
 				C577D3E31AA58F9900B0C7F9 /* Products */,
@@ -124,6 +176,8 @@
 			children = (
 				C577D3E21AA58F9900B0C7F9 /* ApWatchGPS-SKMaps.app */,
 				C577D3F71AA58F9900B0C7F9 /* ApWatchGPS-SKMapsTests.xctest */,
+				C5B85AD71AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex */,
+				C5B85AE41AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +185,7 @@
 		C577D3E41AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */ = {
 			isa = PBXGroup;
 			children = (
+				C5B85AFA1AA5EAEA009960DC /* ApWatchGPS-SKMaps.entitlements */,
 				C577D3E71AA58F9900B0C7F9 /* AppDelegate.swift */,
 				C577D3E91AA58F9900B0C7F9 /* ViewController.swift */,
 				C577D3EB1AA58F9900B0C7F9 /* Main.storyboard */,
@@ -191,6 +246,44 @@
 			name = WormHole;
 			sourceTree = "<group>";
 		};
+		C5B85AD81AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C5B85ADC1AA5E9F5009960DC /* InterfaceController.swift */,
+				C5B85ADE1AA5E9F5009960DC /* NotificationController.swift */,
+				C5B85AE01AA5E9F5009960DC /* Images.xcassets */,
+				C5B85AD91AA5E9F5009960DC /* Supporting Files */,
+			);
+			path = "ApWatchGPS-SKMaps WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C5B85AD91AA5E9F5009960DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5B85ADA1AA5E9F5009960DC /* Info.plist */,
+				C5B85ADB1AA5E9F5009960DC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5B85AE81AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C5B85AEB1AA5E9F5009960DC /* Interface.storyboard */,
+				C5B85AEE1AA5E9F5009960DC /* Images.xcassets */,
+				C5B85AE91AA5E9F5009960DC /* Supporting Files */,
+			);
+			path = "ApWatchGPS-SKMaps WatchKit App";
+			sourceTree = "<group>";
+		};
+		C5B85AE91AA5E9F5009960DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5B85AEA1AA5E9F5009960DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -202,10 +295,12 @@
 				C577D3DF1AA58F9900B0C7F9 /* Frameworks */,
 				C577D3E01AA58F9900B0C7F9 /* Resources */,
 				C5B85ACF1AA5A722009960DC /* Embed Frameworks */,
+				C5B85AF91AA5E9F5009960DC /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C5B85AF11AA5E9F5009960DC /* PBXTargetDependency */,
 			);
 			name = "ApWatchGPS-SKMaps";
 			productName = "ApWatchGPS-SKMaps";
@@ -230,6 +325,39 @@
 			productReference = C577D3F71AA58F9900B0C7F9 /* ApWatchGPS-SKMapsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		C5B85AD61AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B85AF81AA5E9F5009960DC /* Build configuration list for PBXNativeTarget "ApWatchGPS-SKMaps WatchKit Extension" */;
+			buildPhases = (
+				C5B85AD31AA5E9F5009960DC /* Sources */,
+				C5B85AD41AA5E9F5009960DC /* Frameworks */,
+				C5B85AD51AA5E9F5009960DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5B85AE71AA5E9F5009960DC /* PBXTargetDependency */,
+			);
+			name = "ApWatchGPS-SKMaps WatchKit Extension";
+			productName = "ApWatchGPS-SKMaps WatchKit Extension";
+			productReference = C5B85AD71AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C5B85AE31AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B85AF71AA5E9F5009960DC /* Build configuration list for PBXNativeTarget "ApWatchGPS-SKMaps WatchKit App" */;
+			buildPhases = (
+				C5B85AE21AA5E9F5009960DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ApWatchGPS-SKMaps WatchKit App";
+			productName = "ApWatchGPS-SKMaps WatchKit App";
+			productReference = C5B85AE41AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,10 +369,24 @@
 				TargetAttributes = {
 					C577D3E11AA58F9900B0C7F9 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = X4M58U72S4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C577D3F61AA58F9900B0C7F9 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = C577D3E11AA58F9900B0C7F9;
+					};
+					C5B85AD61AA5E9F5009960DC = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = X4M58U72S4;
+					};
+					C5B85AE31AA5E9F5009960DC = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = X4M58U72S4;
 					};
 				};
 			};
@@ -263,6 +405,8 @@
 			targets = (
 				C577D3E11AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */,
 				C577D3F61AA58F9900B0C7F9 /* ApWatchGPS-SKMapsTests */,
+				C5B85AD61AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension */,
+				C5B85AE31AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -283,6 +427,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B85AD51AA5E9F5009960DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B85AE11AA5E9F5009960DC /* Images.xcassets in Resources */,
+				C5B85AE51AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B85AE21AA5E9F5009960DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B85AED1AA5E9F5009960DC /* Interface.storyboard in Resources */,
+				C5B85AEF1AA5E9F5009960DC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +469,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5B85AD31AA5E9F5009960DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B85ADF1AA5E9F5009960DC /* NotificationController.swift in Sources */,
+				C5B85ADD1AA5E9F5009960DC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -314,6 +485,16 @@
 			isa = PBXTargetDependency;
 			target = C577D3E11AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */;
 			targetProxy = C577D3F81AA58F9900B0C7F9 /* PBXContainerItemProxy */;
+		};
+		C5B85AE71AA5E9F5009960DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5B85AE31AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App */;
+			targetProxy = C5B85AE61AA5E9F5009960DC /* PBXContainerItemProxy */;
+		};
+		C5B85AF11AA5E9F5009960DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5B85AD61AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension */;
+			targetProxy = C5B85AF01AA5E9F5009960DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -332,6 +513,14 @@
 				C577D3F11AA58F9900B0C7F9 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C5B85AEB1AA5E9F5009960DC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B85AEC1AA5E9F5009960DC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -423,6 +612,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "ApWatchGPS-SKMaps/ApWatchGPS-SKMaps.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -431,6 +624,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ApWatchGPS-SKMaps-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -441,6 +635,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "ApWatchGPS-SKMaps/ApWatchGPS-SKMaps.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -449,6 +647,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ApWatchGPS-SKMaps-Bridging-Header.h";
 			};
 			name = Release;
@@ -487,6 +686,64 @@
 			};
 			name = Release;
 		};
+		C5B85AF31AA5E9F5009960DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ApWatchGPS-SKMaps WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5B85AF41AA5E9F5009960DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "ApWatchGPS-SKMaps WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C5B85AF51AA5E9F5009960DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ApWatchGPS_SKMaps_WatchKit_Extension;
+				INFOPLIST_FILE = "ApWatchGPS-SKMaps WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C5B85AF61AA5E9F5009960DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = ApWatchGPS_SKMaps_WatchKit_Extension;
+				INFOPLIST_FILE = "ApWatchGPS-SKMaps WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -516,6 +773,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C5B85AF71AA5E9F5009960DC /* Build configuration list for PBXNativeTarget "ApWatchGPS-SKMaps WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B85AF51AA5E9F5009960DC /* Debug */,
+				C5B85AF61AA5E9F5009960DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5B85AF81AA5E9F5009960DC /* Build configuration list for PBXNativeTarget "ApWatchGPS-SKMaps WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B85AF31AA5E9F5009960DC /* Debug */,
+				C5B85AF41AA5E9F5009960DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
