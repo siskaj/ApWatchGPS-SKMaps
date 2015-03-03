@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13ABB38E-00B5-4293-834D-B8857634FF9C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ApWatchGPS-SKMaps</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>81E1F2C7BBBF17388654D792D8ECC021DC352715</key>
+		<string>https://github.com/siskaj/ApWatchGPS-SKMaps.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ApWatchGPS-SKMaps.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>81E1F2C7BBBF17388654D792D8ECC021DC352715</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/siskaj/ApWatchGPS-SKMaps.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>81E1F2C7BBBF17388654D792D8ECC021DC352715</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>81E1F2C7BBBF17388654D792D8ECC021DC352715</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ApWatchGPS-SKMaps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
