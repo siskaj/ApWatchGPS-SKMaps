@@ -15,7 +15,8 @@ class NotificationController: WKUserNotificationInterfaceController {
     override init() {
         // Initialize variables here.
         super.init()
-        
+				NSLog("%@ init", self);
+			
         // Configure interface objects here.
     }
 

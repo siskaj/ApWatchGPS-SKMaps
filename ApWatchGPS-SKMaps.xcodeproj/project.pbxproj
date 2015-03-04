@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5271F8F1AA76E9B00A7695E /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5271F8E1AA76E9B00A7695E /* SKMaps.framework */; };
+		C5271F901AA76E9B00A7695E /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5271F8E1AA76E9B00A7695E /* SKMaps.framework */; };
+		C5271F921AA76EB600A7695E /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5271F8E1AA76E9B00A7695E /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5271F941AA76FF300A7695E /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5271F8E1AA76E9B00A7695E /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C5271F971AA770BD00A7695E /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5271F961AA770BD00A7695E /* SKMaps.bundle */; };
+		C5271F981AA770BD00A7695E /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5271F961AA770BD00A7695E /* SKMaps.bundle */; };
 		C577D3E81AA58F9900B0C7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577D3E71AA58F9900B0C7F9 /* AppDelegate.swift */; };
 		C577D3EA1AA58F9900B0C7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577D3E91AA58F9900B0C7F9 /* ViewController.swift */; };
 		C577D3ED1AA58F9900B0C7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C577D3EB1AA58F9900B0C7F9 /* Main.storyboard */; };
 		C577D3EF1AA58F9900B0C7F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C577D3EE1AA58F9900B0C7F9 /* Images.xcassets */; };
 		C577D3F21AA58F9900B0C7F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C577D3F01AA58F9900B0C7F9 /* LaunchScreen.xib */; };
 		C577D3FE1AA58F9900B0C7F9 /* ApWatchGPS_SKMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C577D3FD1AA58F9900B0C7F9 /* ApWatchGPS_SKMapsTests.swift */; };
-		C577D40D1AA590E100B0C7F9 /* SKMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C577D40C1AA590E100B0C7F9 /* SKMaps.bundle */; };
 		C577D40F1AA5913500B0C7F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D40E1AA5913500B0C7F9 /* UIKit.framework */; };
 		C577D4111AA5914300B0C7F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4101AA5914300B0C7F9 /* Foundation.framework */; };
 		C577D4131AA5915300B0C7F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4121AA5915200B0C7F9 /* CoreLocation.framework */; };
@@ -22,10 +27,6 @@
 		C577D4191AA5917500B0C7F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4181AA5917500B0C7F9 /* CoreGraphics.framework */; };
 		C577D4201AA5939200B0C7F9 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D41F1AA5939200B0C7F9 /* libstdc++.dylib */; };
 		C577D4221AA593A700B0C7F9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C577D4211AA593A700B0C7F9 /* libc++.dylib */; };
-		C5B85ACC1AA5A710009960DC /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; };
-		C5B85ACD1AA5A722009960DC /* SKMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; };
-		C5B85ACE1AA5A722009960DC /* SKMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C5B85ACB1AA5A710009960DC /* SKMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C5B85AD21AA5E087009960DC /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B85AD11AA5E087009960DC /* MMWormhole.m */; };
 		C5B85ADD1AA5E9F5009960DC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B85ADC1AA5E9F5009960DC /* InterfaceController.swift */; };
 		C5B85ADF1AA5E9F5009960DC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B85ADE1AA5E9F5009960DC /* NotificationController.swift */; };
 		C5B85AE11AA5E9F5009960DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B85AE01AA5E9F5009960DC /* Images.xcassets */; };
@@ -33,6 +34,8 @@
 		C5B85AED1AA5E9F5009960DC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B85AEB1AA5E9F5009960DC /* Interface.storyboard */; };
 		C5B85AEF1AA5E9F5009960DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B85AEE1AA5E9F5009960DC /* Images.xcassets */; };
 		C5B85AF21AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5B85AD71AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5B85B041AA6E26A009960DC /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B85B031AA6E26A009960DC /* MMWormhole.m */; };
+		C5B85B051AA6E26A009960DC /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B85B031AA6E26A009960DC /* MMWormhole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +63,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		C5271F951AA76FF300A7695E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C5271F941AA76FF300A7695E /* SKMaps.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C5B85ACF1AA5A722009960DC /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C5B85ACE1AA5A722009960DC /* SKMaps.framework in Embed Frameworks */,
+				C5271F921AA76EB600A7695E /* SKMaps.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +99,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C5271F8E1AA76E9B00A7695E /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
+		C5271F961AA770BD00A7695E /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKMaps.bundle; sourceTree = "<group>"; };
 		C577D3E21AA58F9900B0C7F9 /* ApWatchGPS-SKMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApWatchGPS-SKMaps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C577D3E61AA58F9900B0C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C577D3E71AA58F9900B0C7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +111,6 @@
 		C577D3F71AA58F9900B0C7F9 /* ApWatchGPS-SKMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ApWatchGPS-SKMapsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C577D3FC1AA58F9900B0C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C577D3FD1AA58F9900B0C7F9 /* ApWatchGPS_SKMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApWatchGPS_SKMapsTests.swift; sourceTree = "<group>"; };
-		C577D40C1AA590E100B0C7F9 /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SKMaps.bundle; path = "ApWatchGPS-SKMaps/SKMaps.bundle"; sourceTree = "<group>"; };
 		C577D40E1AA5913500B0C7F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C577D4101AA5914300B0C7F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C577D4121AA5915200B0C7F9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -105,9 +120,6 @@
 		C577D41F1AA5939200B0C7F9 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		C577D4211AA593A700B0C7F9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		C577D4231AA593ED00B0C7F9 /* ApWatchGPS-SKMaps-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApWatchGPS-SKMaps-Bridging-Header.h"; sourceTree = "<group>"; };
-		C5B85ACB1AA5A710009960DC /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
-		C5B85AD01AA5E087009960DC /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
-		C5B85AD11AA5E087009960DC /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
 		C5B85AD71AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ApWatchGPS-SKMaps WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B85ADA1AA5E9F5009960DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5B85ADB1AA5E9F5009960DC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -119,6 +131,9 @@
 		C5B85AEC1AA5E9F5009960DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		C5B85AEE1AA5E9F5009960DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5B85AFA1AA5EAEA009960DC /* ApWatchGPS-SKMaps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ApWatchGPS-SKMaps.entitlements"; sourceTree = "<group>"; };
+		C5B85AFB1AA6D96E009960DC /* ApWatchGPS-SKMaps WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ApWatchGPS-SKMaps WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		C5B85B021AA6E26A009960DC /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		C5B85B031AA6E26A009960DC /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,12 +143,11 @@
 			files = (
 				C577D4221AA593A700B0C7F9 /* libc++.dylib in Frameworks */,
 				C577D4201AA5939200B0C7F9 /* libstdc++.dylib in Frameworks */,
-				C5B85ACC1AA5A710009960DC /* SKMaps.framework in Frameworks */,
 				C577D4191AA5917500B0C7F9 /* CoreGraphics.framework in Frameworks */,
 				C577D4171AA5916900B0C7F9 /* QuartzCore.framework in Frameworks */,
 				C577D4151AA5915F00B0C7F9 /* OpenGLES.framework in Frameworks */,
 				C577D4131AA5915300B0C7F9 /* CoreLocation.framework in Frameworks */,
-				C5B85ACD1AA5A722009960DC /* SKMaps.framework in Frameworks */,
+				C5271F8F1AA76E9B00A7695E /* SKMaps.framework in Frameworks */,
 				C577D4111AA5914300B0C7F9 /* Foundation.framework in Frameworks */,
 				C577D40F1AA5913500B0C7F9 /* UIKit.framework in Frameworks */,
 			);
@@ -150,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5271F901AA76E9B00A7695E /* SKMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +182,6 @@
 				C577D3E31AA58F9900B0C7F9 /* Products */,
 				C577D4271AA5940D00B0C7F9 /* WormHole */,
 				C577D4231AA593ED00B0C7F9 /* ApWatchGPS-SKMaps-Bridging-Header.h */,
-				C5B85ACB1AA5A710009960DC /* SKMaps.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +199,7 @@
 		C577D3E41AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */ = {
 			isa = PBXGroup;
 			children = (
+				C5271F8E1AA76E9B00A7695E /* SKMaps.framework */,
 				C5B85AFA1AA5EAEA009960DC /* ApWatchGPS-SKMaps.entitlements */,
 				C577D3E71AA58F9900B0C7F9 /* AppDelegate.swift */,
 				C577D3E91AA58F9900B0C7F9 /* ViewController.swift */,
@@ -226,7 +241,6 @@
 			children = (
 				C577D4211AA593A700B0C7F9 /* libc++.dylib */,
 				C577D41F1AA5939200B0C7F9 /* libstdc++.dylib */,
-				C577D40C1AA590E100B0C7F9 /* SKMaps.bundle */,
 				C577D4181AA5917500B0C7F9 /* CoreGraphics.framework */,
 				C577D4161AA5916900B0C7F9 /* QuartzCore.framework */,
 				C577D4141AA5915F00B0C7F9 /* OpenGLES.framework */,
@@ -240,8 +254,8 @@
 		C577D4271AA5940D00B0C7F9 /* WormHole */ = {
 			isa = PBXGroup;
 			children = (
-				C5B85AD01AA5E087009960DC /* MMWormhole.h */,
-				C5B85AD11AA5E087009960DC /* MMWormhole.m */,
+				C5B85B021AA6E26A009960DC /* MMWormhole.h */,
+				C5B85B031AA6E26A009960DC /* MMWormhole.m */,
 			);
 			name = WormHole;
 			sourceTree = "<group>";
@@ -253,6 +267,7 @@
 				C5B85ADE1AA5E9F5009960DC /* NotificationController.swift */,
 				C5B85AE01AA5E9F5009960DC /* Images.xcassets */,
 				C5B85AD91AA5E9F5009960DC /* Supporting Files */,
+				C5B85AFB1AA6D96E009960DC /* ApWatchGPS-SKMaps WatchKit Extension-Bridging-Header.h */,
 			);
 			path = "ApWatchGPS-SKMaps WatchKit Extension";
 			sourceTree = "<group>";
@@ -260,6 +275,7 @@
 		C5B85AD91AA5E9F5009960DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5271F961AA770BD00A7695E /* SKMaps.bundle */,
 				C5B85ADA1AA5E9F5009960DC /* Info.plist */,
 				C5B85ADB1AA5E9F5009960DC /* PushNotificationPayload.apns */,
 			);
@@ -332,6 +348,7 @@
 				C5B85AD31AA5E9F5009960DC /* Sources */,
 				C5B85AD41AA5E9F5009960DC /* Frameworks */,
 				C5B85AD51AA5E9F5009960DC /* Resources */,
+				C5271F951AA76FF300A7695E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,7 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C577D40D1AA590E100B0C7F9 /* SKMaps.bundle in Resources */,
+				C5271F971AA770BD00A7695E /* SKMaps.bundle in Resources */,
 				C577D3ED1AA58F9900B0C7F9 /* Main.storyboard in Resources */,
 				C577D3F21AA58F9900B0C7F9 /* LaunchScreen.xib in Resources */,
 				C577D3EF1AA58F9900B0C7F9 /* Images.xcassets in Resources */,
@@ -435,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B85AE11AA5E9F5009960DC /* Images.xcassets in Resources */,
+				C5271F981AA770BD00A7695E /* SKMaps.bundle in Resources */,
 				C5B85AE51AA5E9F5009960DC /* ApWatchGPS-SKMaps WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,7 +475,7 @@
 			files = (
 				C577D3EA1AA58F9900B0C7F9 /* ViewController.swift in Sources */,
 				C577D3E81AA58F9900B0C7F9 /* AppDelegate.swift in Sources */,
-				C5B85AD21AA5E087009960DC /* MMWormhole.m in Sources */,
+				C5B85B041AA6E26A009960DC /* MMWormhole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +493,7 @@
 			files = (
 				C5B85ADF1AA5E9F5009960DC /* NotificationController.swift in Sources */,
 				C5B85ADD1AA5E9F5009960DC /* InterfaceController.swift in Sources */,
+				C5B85B051AA6E26A009960DC /* MMWormhole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +638,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/jsiska2/Downloads/SKMaps_iOS_2.4.0_withDemo_Swift/SKMapsSwiftDemo,
+					"$(PROJECT_DIR)/ApWatchGPS-SKMaps",
 				);
 				INFOPLIST_FILE = "ApWatchGPS-SKMaps/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -642,6 +663,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/jsiska2/Downloads/SKMaps_iOS_2.4.0_withDemo_Swift/SKMapsSwiftDemo,
+					"$(PROJECT_DIR)/ApWatchGPS-SKMaps",
 				);
 				INFOPLIST_FILE = "ApWatchGPS-SKMaps/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -659,6 +682,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -678,6 +702,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "ApWatchGPS-SKMapsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -689,26 +714,45 @@
 		C5B85AF31AA5E9F5009960DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/jsiska2/Downloads/SKMaps_iOS_2.4.0_withDemo_Swift/SKMapsSwiftDemo,
+					"$(PROJECT_DIR)/ApWatchGPS-SKMaps",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "ApWatchGPS-SKMaps WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ApWatchGPS-SKMaps WatchKit Extension/ApWatchGPS-SKMaps WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C5B85AF41AA5E9F5009960DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/jsiska2/Downloads/SKMaps_iOS_2.4.0_withDemo_Swift/SKMapsSwiftDemo,
+					"$(PROJECT_DIR)/ApWatchGPS-SKMaps",
+				);
 				INFOPLIST_FILE = "ApWatchGPS-SKMaps WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ApWatchGPS-SKMaps WatchKit Extension/ApWatchGPS-SKMaps WatchKit Extension-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -781,6 +825,7 @@
 				C5B85AF61AA5E9F5009960DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5B85AF81AA5E9F5009960DC /* Build configuration list for PBXNativeTarget "ApWatchGPS-SKMaps WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -789,6 +834,7 @@
 				C5B85AF41AA5E9F5009960DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

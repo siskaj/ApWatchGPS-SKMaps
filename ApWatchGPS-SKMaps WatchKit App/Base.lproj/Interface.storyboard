@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="dinbold.ttf">
+            <string>DIN-Bold</string>
+        </mutableArray>
+        <mutableArray key="opensans_semibold.ttf">
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ApWatchGPS_SKMaps_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="left" text="Label" textAlignment="center" id="Q0d-nr-hkb">
+                            <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
+                        </label>
+                        <button width="1" height="100" alignment="left" title="Button" id="F4W-Dc-1jX">
+                            <fontDescription key="font" name="DIN-Bold" family="DIN-Bold" pointSize="17"/>
+                            <connections>
+                                <action selector="distanceButtonPressed" destination="AgC-eL-Hgc" id="PyY-8K-4LW"/>
+                            </connections>
+                        </button>
+                        <label alignment="center" verticalAlignment="bottom" text="Label" id="fNr-N8-eUM">
+                            <fontDescription key="font" name="OpenSans-Semibold" family="Open Sans" pointSize="17"/>
+                        </label>
+                    </items>
+                    <connections>
+                        <outlet property="adviceButton" destination="F4W-Dc-1jX" id="4vH-Ot-IFW"/>
+                        <outlet property="distanceLabel" destination="fNr-N8-eUM" id="MFY-Rh-8bD"/>
+                        <outlet property="nextStreetLabel" destination="Q0d-nr-hkb" id="CG2-A2-eWM"/>
+                    </connections>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
@@ -31,7 +59,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="ApWatchGPS_SKMaps_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
