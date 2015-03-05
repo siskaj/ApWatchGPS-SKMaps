@@ -24,7 +24,7 @@
                         <button width="1" height="100" alignment="left" title="Button" id="F4W-Dc-1jX">
                             <fontDescription key="font" name="DIN-Bold" family="DIN-Bold" pointSize="17"/>
                             <connections>
-                                <action selector="distanceButtonPressed" destination="AgC-eL-Hgc" id="PyY-8K-4LW"/>
+                                <action selector="distanceButtonPressed" destination="AgC-eL-Hgc" id="Qnx-bR-Z3q"/>
                             </connections>
                         </button>
                         <label alignment="center" verticalAlignment="bottom" text="Label" id="fNr-N8-eUM">
@@ -33,8 +33,8 @@
                     </items>
                     <connections>
                         <outlet property="adviceButton" destination="F4W-Dc-1jX" id="4vH-Ot-IFW"/>
-                        <outlet property="distanceLabel" destination="fNr-N8-eUM" id="MFY-Rh-8bD"/>
-                        <outlet property="nextStreetLabel" destination="Q0d-nr-hkb" id="CG2-A2-eWM"/>
+                        <outlet property="distanceLabel" destination="Q0d-nr-hkb" id="zgO-dN-SwI"/>
+                        <outlet property="nextStreetLabel" destination="fNr-N8-eUM" id="2eO-Qy-MGD"/>
                     </connections>
                 </controller>
             </objects>

@@ -102,13 +102,12 @@ class ViewController: UIViewController, SKMapViewDelegate, SKPositionerServiceDe
 	//MARK: Delegate methods
 	
 	func positionerService(positionerService: SKPositionerService!, updatedCurrentLocation currentLocation: CLLocation!) {
-		println("distance")
+		println("updateCurrentLocation: \(currentLocation)")
 		
 	}
 	
 	func routingService(routingService: SKRoutingService!, didFinishRouteCalculationWithInfo routeInformation: SKRouteInformation!) {
-		println("distance")
-		
+		println("didFinishRouteCalculation: \(routeInformation)")
 	}
 	
 	func routingServiceDidCalculateAllRoutes(routingService: SKRoutingService!) {
@@ -121,23 +120,24 @@ class ViewController: UIViewController, SKMapViewDelegate, SKPositionerServiceDe
 	}
 	
 	func routingService(routingService: SKRoutingService!, didChangeCurrentAdviceImage adviceImage: UIImage!, withLastAdvice isLastAdvice: Bool) {
-		println("distance")
+		println("CurrentAdviceImage")
 		let imageData = UIImagePNGRepresentation(adviceImage)
 		wormHole.passMessageObject(imageData, identifier: "image")
 	}
 	
 	func routingService(routingService: SKRoutingService!, didChangeCurrentVisualAdviceDistance distance: Int32, withFormattedDistance formattedDistance: String!) {
-		println("distance")
+		println("distance: \(formattedDistance)")
 		wormHole.passMessageObject(formattedDistance, identifier: "distance")
+		saveMapImage()
 	}
 	
 	func routingService(routingService: SKRoutingService!, didChangeNextStreetName nextStreetName: String!, streetType: SKStreetType, countryCode: String!) {
-		println("distance")
+		println("nextStreetName: \(nextStreetName), \(streetType)")
 		wormHole.passMessageObject(nextStreetName, identifier: "nextStreet")
 	}
 	
 	func routingService(routingService: SKRoutingService!, didChangeCurrentSpeed speed: Double) {
-		println("distance")
+		println("CurrentSpeed: \(speed)")
 		let speedString = distanceStringForDistance(speed, withFormat: SKDistanceFormat.Metric)
 		wormHole.passMessageObject(speedString, identifier: "speed")
 	}
