@@ -100,7 +100,7 @@
 
 /* Begin PBXFileReference section */
 		C51BD11A1AA8491600E522C0 /* ApWatchGPS-SKMaps WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ApWatchGPS-SKMaps WatchKit Extension.entitlements"; sourceTree = "<group>"; };
-		C5271F8E1AA76E9B00A7695E /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
+		C5271F8E1AA76E9B00A7695E /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKMaps.framework; path = "ApWatchGPS-SKMaps/SKMaps.framework"; sourceTree = "<group>"; };
 		C5271F961AA770BD00A7695E /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKMaps.bundle; sourceTree = "<group>"; };
 		C577D3E21AA58F9900B0C7F9 /* ApWatchGPS-SKMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ApWatchGPS-SKMaps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C577D3E61AA58F9900B0C7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -200,7 +200,6 @@
 		C577D3E41AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */ = {
 			isa = PBXGroup;
 			children = (
-				C5271F8E1AA76E9B00A7695E /* SKMaps.framework */,
 				C5B85AFA1AA5EAEA009960DC /* ApWatchGPS-SKMaps.entitlements */,
 				C577D3E71AA58F9900B0C7F9 /* AppDelegate.swift */,
 				C577D3E91AA58F9900B0C7F9 /* ViewController.swift */,
@@ -240,6 +239,7 @@
 		C577D41E1AA5920A00B0C7F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5271F8E1AA76E9B00A7695E /* SKMaps.framework */,
 				C577D4211AA593A700B0C7F9 /* libc++.dylib */,
 				C577D41F1AA5939200B0C7F9 /* libstdc++.dylib */,
 				C577D4181AA5917500B0C7F9 /* CoreGraphics.framework */,
