@@ -39,6 +39,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C506EADE1AA98D740072E404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C506EAD91AA98D740072E404 /* BrightFutures.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9DF0815194470060083F7F2;
+			remoteInfo = BrightFutures;
+		};
+		C506EAE01AA98D740072E404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C506EAD91AA98D740072E404 /* BrightFutures.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E9DF0820194470060083F7F2;
+			remoteInfo = BrightFuturesTests;
+		};
+		C506EAE31AA98DB40072E404 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C506EAD91AA98D740072E404 /* BrightFutures.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DF0814194470060083F7F2;
+			remoteInfo = BrightFutures;
+		};
 		C577D3F81AA58F9900B0C7F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C577D3DA1AA58F9900B0C7F9 /* Project object */;
@@ -99,6 +120,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C506EAD91AA98D740072E404 /* BrightFutures.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BrightFutures.xcodeproj; path = swift1.2/BrightFutures.xcodeproj; sourceTree = "<group>"; };
 		C51BD11A1AA8491600E522C0 /* ApWatchGPS-SKMaps WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ApWatchGPS-SKMaps WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		C5271F8E1AA76E9B00A7695E /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SKMaps.framework; path = "ApWatchGPS-SKMaps/SKMaps.framework"; sourceTree = "<group>"; };
 		C5271F961AA770BD00A7695E /* SKMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKMaps.bundle; sourceTree = "<group>"; };
@@ -172,6 +194,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C506EADA1AA98D740072E404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C506EADF1AA98D740072E404 /* BrightFutures.framework */,
+				C506EAE11AA98D740072E404 /* BrightFuturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C577D3D91AA58F9900B0C7F9 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +214,7 @@
 				C577D3E31AA58F9900B0C7F9 /* Products */,
 				C577D4271AA5940D00B0C7F9 /* WormHole */,
 				C577D4231AA593ED00B0C7F9 /* ApWatchGPS-SKMaps-Bridging-Header.h */,
+				C506EAD91AA98D740072E404 /* BrightFutures.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -318,6 +350,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C506EAE41AA98DB40072E404 /* PBXTargetDependency */,
 				C5B85AF11AA5E9F5009960DC /* PBXTargetDependency */,
 			);
 			name = "ApWatchGPS-SKMaps";
@@ -425,6 +458,12 @@
 			mainGroup = C577D3D91AA58F9900B0C7F9;
 			productRefGroup = C577D3E31AA58F9900B0C7F9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C506EADA1AA98D740072E404 /* Products */;
+					ProjectRef = C506EAD91AA98D740072E404 /* BrightFutures.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C577D3E11AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */,
@@ -434,6 +473,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C506EADF1AA98D740072E404 /* BrightFutures.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BrightFutures.framework;
+			remoteRef = C506EADE1AA98D740072E404 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C506EAE11AA98D740072E404 /* BrightFuturesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BrightFuturesTests.xctest;
+			remoteRef = C506EAE01AA98D740072E404 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C577D3E01AA58F9900B0C7F9 /* Resources */ = {
@@ -507,6 +563,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C506EAE41AA98DB40072E404 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BrightFutures;
+			targetProxy = C506EAE31AA98DB40072E404 /* PBXContainerItemProxy */;
+		};
 		C577D3F91AA58F9900B0C7F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C577D3E11AA58F9900B0C7F9 /* ApWatchGPS-SKMaps */;
